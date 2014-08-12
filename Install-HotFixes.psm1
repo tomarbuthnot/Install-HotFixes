@@ -1,17 +1,17 @@
 Function Install-HotFixes {
 <#
 .SYNOPSIS  
-		Synopsis goes here
+		Install Office Hotfixes with exit codes
 
 .DESCRIPTION  
-		Description goes here
+		Install Office Hotfixes with exit codes
 
 .LINK  
-    http://link.com
+    https://github.com/tomarbuthnot/Install-HotFixes
                 
 .NOTES  
 	Version:
-			0.8
+			0.2
   
 	Author/Copyright:	 
 			Copyright Tom Arbuthnot - All Rights Reserved
@@ -86,7 +86,7 @@ Function Install-HotFixes {
   
   Param 	(
     [Parameter(Mandatory=$false,
-    HelpMessage='Param1 Description')]
+    HelpMessage='File Path Containing Hotfixes')]
     $FilePath,
 
     
